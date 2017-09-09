@@ -1,0 +1,25 @@
+{
+  "name": "package-stripper",
+  "version": "1.0.0",
+  "description": "Clean-up excess baggage in node_modules to reduce used disk space in Docker-like environments",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeduncan/package-strippper.git"
+  },
+  "keywords": [
+    "production",
+    "file",
+    "remove",
+    "stripper",
+    "docker"
+  ],
+  "author": "Joe Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeduncan/package-strippper/issues"
+  },
+  "bin": {
+    "package-stripper": "strip.sh"
+  },
+  "homepage": "https://github.com/joeduncan/package-strippper#readme"
+}
